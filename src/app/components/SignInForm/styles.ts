@@ -50,17 +50,17 @@ export const AuthForm = styled.form`
 export const BaseButton = styled.button`
   display: inline-block;
   padding: 0.6em 1.3em;
-  color: ${colors.baseButtonColor};
+  color: ${colors.bg};
   font-weight: bold;
   text-decoration: none;
-  background: ${colors.baseButtonBg};
+  background: ${colors.submitButtonBg};
   border: 0;
   border-radius: 0.3em;
   &:hover:not(:disabled) {
-    background: ${colors.baseButtonHoverBg};
+    background: ${colors.submitButtonHoverBg};
   }
   &:active:not(:disabled) {
-    background: ${colors.baseButtonActiveBg};
+    background: ${colors.submitButtonActiveBg};
   }
   &:disabled {
     opacity: 0.6;

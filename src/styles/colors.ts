@@ -1,5 +1,6 @@
 export const colors = {
   baseBg: '#E5E5E5',
+  darkFont: '#000000',
   bg: '#FFFFFF',
   errorBg: '#eb5a46',
   inputBg: '#fafbfc',
